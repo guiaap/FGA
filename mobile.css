@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@media (max-width: 768px) {
+
+    header {
+        height: 60px;
+    }
+
+    header > div#logo_inicial > a > img {
+        height: 30px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    div#contato {
+        width: 100px;
+    }
+
+    div#contato > a {
+        font-size: 0.8em;
+    }
+
+    section#apresentacao {
+        height: 550px;
+    }
+
+    section#apresentacao > div#apr_texto {
+        min-width: 80%;
+    }
+
+    section#apresentacao > div#apr_texto > h1 {
+        font-size: 2em;
+    }
+
+    section#apresentacao > div#apr_texto > p {
+        font-size: 1em;
+    }
+
+    section#nossos_servicos {
+        height: 1200px;
+    }
+
+    section#nossos_servicos > div#tit > h2 {
+        font-size: 1.5em;
+    }
+
+    section#nossos_servicos > div#servicos > div.serv {
+        height: 280px;
+        max-width: 90%;
+    }
+
+    section#nossos_servicos > div#servicos > div.serv > h3 {
+        font-size: 1em;
+    }
+
+    section#nossos_servicos > div#servicos > div.serv > p {
+        font-size: 0.8em;
+    }
+
+    section#nossos_servicos > div#servicos > div.serv > p.preco {
+        font-size: 1em;
+    }
+}

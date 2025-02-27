@@ -21,11 +21,11 @@
  header {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     position: fixed;
     z-index: 1000;
 
-    height: 100px;
+    height: 90px;
     width: 100%;
 
     background-color: #d9d9d9d4;
@@ -36,10 +36,69 @@
     align-items: center;
     justify-content: center;
 
+    height: 100%;
  }
 
  header > div#logo_inicial > a > img {
     height: 60px;
+ }
+
+ nav {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+    width: 50%;
+ }
+
+ nav > ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 100%;
+
+    list-style-type: none;
+ }
+
+ nav > ul > li > a {
+    text-decoration: none;
+    color: #070E26;
+    font-size: 1.2em;
+    font-weight: 600;
+
+    transition: 0.3s;
+ }
+
+ nav > ul > li > a:hover {
+    color: #590219;
+ }
+
+ div#contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+    width: 200px;
+
+    background-color: #590219;
+
+    cursor: pointer;
+    transition: 0.3s;
+ }
+
+ div#contato:hover {
+    background-color: #5902198d;
+ }
+
+ div#contato > a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1em;
  }
 
  section#apresentacao {
@@ -61,7 +120,6 @@
     width: 60%;
     margin-top: 20px;
     
-    text-align: justify;
     color: white;
  }
 
@@ -72,6 +130,7 @@
 
  section#apresentacao > div#apr_texto > p {
     font-size: 1.2em;
+    text-align: justify;
  }
 
  section#nossos_servicos {
@@ -116,7 +175,6 @@
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    align-content: space-evenly;
  }
 
  section#nossos_servicos > div#servicos > div.serv {
@@ -245,8 +303,7 @@
  section#portifolio > div#port_container > div.port_item:hover {
    transform: translateY(-15px);
    transform: translateX(-10px);
-   box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.26));
-
+   box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.26);
  }
 
  footer {
