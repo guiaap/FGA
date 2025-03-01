@@ -73,7 +73,7 @@
  }
 
  nav > ul > li > a:hover {
-    color: #590219;
+    color: #730220;
  }
 
  div#contato {
@@ -114,6 +114,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+
  }
 
  section#apresentacao > div#apr_texto {
@@ -132,6 +133,65 @@
     font-size: 1.2em;
     text-align: justify;
  }
+
+ section#sobre_nos {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+
+      height: 700px;
+      width: 100%;
+
+      background-color: #eeeaea;
+ }
+
+ section#sobre_nos > div#sbn_tit {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      flex-direction: column;
+      
+      width: 100%;
+      height: 15%;
+      text-align: center;
+ }
+
+ section#sobre_nos > div#sbn_tit > h2 {
+      margin-bottom: 10px;
+      font-size: 2.2em;
+      color: #070E26;
+ }
+
+ section#sobre_nos > div#sbn_tit > hr {
+      width: 80px;
+      height: 5px;
+      background-color: #590219;
+ }
+
+ section#sobre_nos > div#sbn_txt {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+ }
+
+ section#sobre_nos > div#sbn_txt > p {
+   max-width: 60%;
+   margin-bottom: 20px;
+   text-align: justify;
+   font-size: 1.1em;
+ }
+
+ section#sobre_nos > div#sbn_img {
+      width: 100%;
+      height: 20%;
+      background-image: url(imagens/bc.jpg);
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+ } 
+
 
  section#nossos_servicos {
     display: flex;
@@ -174,7 +234,6 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    align-content: space-evenly;
     flex-wrap: wrap;
  }
 

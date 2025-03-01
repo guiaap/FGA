@@ -4,12 +4,16 @@
 
 @media (max-width: 768px) {
 
+    html, body {
+        overflow-x: scroll;
+    }
+    
     header {
-        height: 60px;
+        height: 70px;
     }
 
     header > div#logo_inicial > a > img {
-        height: 30px;
+        height: 35px;
     }
 
     nav {
@@ -29,7 +33,7 @@
     }
 
     section#apresentacao > div#apr_texto {
-        min-width: 80%;
+        width: 80%;
     }
 
     section#apresentacao > div#apr_texto > h1 {
@@ -46,6 +50,10 @@
 
     section#nossos_servicos > div#tit > h2 {
         font-size: 1.5em;
+    }
+
+    section#nossos_servicos > div#servicos {
+    
     }
 
     section#nossos_servicos > div#servicos > div.serv {
